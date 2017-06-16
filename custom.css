@@ -1,0 +1,186 @@
+body{
+	font-family: "Poiret One";
+	color:white;
+}
+
+/* HEADER
+============================= */
+
+.header {
+	height: 90vh;
+	text-align: center;
+	background: url("http://jan-hamara-design.com/img/bg_opt.jpg") center top;
+}
+
+/* NAVIGATION */
+
+.navbar{
+	border: none;
+}
+
+.navbar-default{
+	background: none;
+}
+
+.icon-bar, .navbar-nav li a {
+	color: #fff;
+}
+
+.portrait{
+	width: 100px;
+	height: 100px;
+	border-radius: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCROLL MOUSE
+============================= */
+
+.mouse-scroll {
+  display: block;
+  width: 24px;
+  margin: 20px auto;
+  padding: 0;
+  opacity: .8;
+  z-index: 1;
+}
+
+.mouse-scroll .mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid white;
+  top: 170px;
+}
+
+.mouse-scroll .mouse .wheel {
+  height: 3px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: black;
+  position: relative;
+  height: 2px;
+  width: 2px;
+  border: 2px solid green;
+  border-radius: 8px;
+  -webkit-animation: mouse-wheel 1.4s linear infinite;
+  -moz-animation: mouse-wheel 3s linear infinite;
+}
+
+@-webkit-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: .5;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@-moz-keyframes mouse-wheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 3px;
+  }
+  50% {
+    top: 5px;
+  }
+  75% {
+    top: 3px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
